@@ -1,0 +1,12 @@
+div.navbar 
+{
+    background-color: pink;
+    color: gray;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.navbar ul 
+{
+    list-style: none;
+}
