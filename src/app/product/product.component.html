@@ -1,0 +1,7 @@
+<div class="product">
+    <!--binding & interpolating-->
+    <img [src]="stuff.imageurl">
+    <h3>{{ stuff.name }}</h3>
+    <p>{{ stuff.description }}.</p>
+    <a [routerLink]="['product', stuff.id]">See More</a>
+    </div>

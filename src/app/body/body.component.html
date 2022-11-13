@@ -1,3 +1,9 @@
-<h1>Body Header</h1>
 
-<ul></ul>
+<!-- text interpolation -->
+<h1>{{ heading }}</h1>
+<div>
+    <!--data binding-->
+<app-product *ngFor="let item of products" [stuff]="item"></app-product>
+</div>
+
+

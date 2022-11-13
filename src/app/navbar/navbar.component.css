@@ -4,6 +4,12 @@ div.navbar
     color: gray;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    list-style: inline-block;
+}
+
+.navbar h1
+{
+margin: 0;
 }
 
 div.navbar ul 
